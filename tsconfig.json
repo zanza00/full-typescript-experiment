@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "noEmit": true,
+      "target": "es5",
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "lib": ["es6", "dom", "es2016.array.include"],
+      "importHelpers": true,
+      "sourceMap": true,
+      "outDir": "./dist",
+      "jsx": "preserve",
+      "strict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "forceConsistentCasingInFileNames": true,
+      "types": ["node", "jest", "jest-enzyme"],
+      "typeRoots": ["./typings", "./node_modules/@types"],
+      "baseUrl": ".",
+      "paths": {
+        "*": ["*", "typings/*"]
+      }
+    },
+    "include": [
+      "./src",
+      "./scripts",
+      "./config",
+      "./typings"
+    ]
+  }

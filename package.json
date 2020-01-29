@@ -1,0 +1,14 @@
+{
+    "main": "./src/index.ts",
+    "sideEffects": false,
+    "scripts": {
+      "setup": "ts-node scripts/setup",
+      "postinstall": "npm run setup:dev"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+      "@types/node": "12.12.17",
+      "ts-node": "8.6.1" 
+    }
+  }
